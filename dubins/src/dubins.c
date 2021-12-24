@@ -25,6 +25,10 @@
 #include <math.h>
 #include "dubins.h"
 
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
+
 #define EPSILON (10e-10)
 
 typedef enum 
